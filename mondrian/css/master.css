@@ -16,8 +16,7 @@
   margin: 0;
 }
 body{
-  width: 90%;
-  margin: 5%;
+  width: 100%;
   height: 100vh;
   background-color: #eee;
 }
@@ -28,38 +27,36 @@ body{
 }
 
 .large{
-  width: 100%;
-  height: 50%;
+  width: 90%;
+  height: 50vh;
+  margin: 2.5vh 5%;
 }
 .small{
-  width: 100%;
-  height: 20%;
-  margin: 5vh 0 0 0 ;
+  width: 90%;
+  height: 20vh;
+  margin: 2.5vh 5%;
 }
 
 @media only screen and (min-width:600px) {
   .small {
-    width: 48%;
-    height: 47%;
-    margin: 4.2vh 0 0 0;
-  }
-  div:last-of-type{
-    margin-left: 3.9%;
+    width: 40%;
+    height: 40vh;
+    margin: 2.5vh 5%;
   }
 }
 
 @media only screen and (min-width:1024px){
   .large{
-    width: 68%;
-    height: 100%;
+    width: 60%;
+    height: 90vh;
+    margin: 5vh 5%;
   }
-  div:last-of-type{
-    margin: 4vh 0 0 2%;
-  }
-
   .small{
-    width: 30%;
-    height: 48%;
-    margin: 0 0 0 2%;
+    width: 25%;
+    height: 42.5vh;
+    margin: 5vh 5% 5vh 0;
+  }
+  .top {
+    margin: 5vh 5% 0 0%;
   }
 }
