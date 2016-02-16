@@ -1,0 +1,65 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+
+/* End for testing */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  width: 90%;
+  margin: 5%;
+  height: 100vh;
+  background-color: #eee;
+}
+
+.column{
+  float: left;
+  background-color: seagreen;
+}
+
+.large{
+  width: 100%;
+  height: 50%;
+}
+.small{
+  width: 100%;
+  height: 20%;
+  margin: 5vh 0 0 0 ;
+}
+
+@media only screen and (min-width:600px) {
+  .small {
+    width: 48%;
+    height: 47%;
+    margin: 4.2vh 0 0 0;
+  }
+  div:last-of-type{
+    margin-left: 3.9%;
+  }
+}
+
+@media only screen and (min-width:1024px){
+  .large{
+    width: 68%;
+    height: 100%;
+  }
+  div:last-of-type{
+    margin: 4vh 0 0 2%;
+  }
+
+  .small{
+    width: 30%;
+    height: 48%;
+    margin: 0 0 0 2%;
+  }
+}
