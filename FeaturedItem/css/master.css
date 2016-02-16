@@ -16,6 +16,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #e8e8e8;
+}
+
 .topBar {
   background-color: darkseagreen;
   width: 40%;
@@ -57,7 +61,6 @@ header:first-of-type{
 }
 
 article {
-  background-color: pink;
   width: 90%;
   /*CHANGE HEIGHT HERE FOR LONGER ARTICLES*/
   height: 64.5vh;
@@ -66,13 +69,16 @@ article {
 article img {
   width: 100%;
   height: 60%;
+  background-color: pink;
 }
 article h1{
   font-size: 1.2em;
   margin: 3vh 0 2vh 0;
+  background-color: pink;
 }
 article p {
   font-size: 0.9em;
+  background-color: pink;
 }
 
 @media only screen and (min-width: 600px) {
@@ -121,5 +127,37 @@ article p {
 }
 
 @media only screen and (min-width:1024px) {
+  header {
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  header:first-of-type{
+    width: 75%;
+  }
+
+  nav ul {
+    float: right;
+    width: 20%;
+    margin-right: 5%;
+  }
+
+  article {
+    width: 20.6%;
+    margin-left: 2.5%;
+    height: 60vh;
+  }
+
+  article:first-of-type {
+    margin-left: 5%;
+  }
+
+  article:nth-child(odd){
+    margin-right: 0;
+  }
+
+  article p {
+    font-size: 1.2em;
+  }
 
 }
