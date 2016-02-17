@@ -15,3 +15,125 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+body {
+  width: 100%;
+  background-color: #e8e8e8;
+}
+
+.topBar {
+  float: left;
+  background-color: darkseagreen;
+  width: 15%;
+  height: 3vh;
+  margin: 4vh 0;
+}
+
+.topLogo {
+  float: left;
+  background-color: darkkhaki;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  margin: 2.5vh 5%;
+}
+
+nav{
+  width: 100%;
+}
+
+nav ul{
+  width: 90%;
+  float: left;
+  height: 4vh;
+  padding-left: 0;
+  list-style: none;
+  margin: 0 5% 2.5vh 5%;
+}
+nav ul li{
+  float: left;
+  width: 24.25%;
+  height: 100%;
+  margin-right: 1%;
+  background-color: darkgreen;
+}
+nav ul li:last-child{
+  margin-right: 0;
+}
+
+article {
+  clear: both;
+  margin: 2.5vh 5%;
+}
+
+article h1{
+  font-size: 1.5em;
+  background-color: pink;
+}
+article p {
+  font-size: 1em;
+  background-color: pink;
+}
+
+.bigLogo{
+  width: 27vh;
+  height: 27vh;
+  border-radius: 50%;
+  display: block;
+  margin: 1vh auto 0;
+  background: cornflowerblue;
+}
+
+.textBlock {
+  clear: both;
+  background-color: cadetblue;
+  width: 90%;
+  height: 10vh;
+  margin: 2.5vh 5%;
+}
+
+@media only screen and (min-width:600px) {
+  .topBar {
+    width: 10%;
+    height: 2vh;
+  }
+  .topLogo {
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    margin: 2.8vh 2% 0 5%;
+  }
+  nav ul {
+    float: right;
+    width: 50%;
+    height: 3vh;
+    margin: 3.5vh 5% 2.5vh 0;
+  }
+  article {
+    float: left;
+    width: 51%;
+    height:25vh;
+  }
+  .bigLogo {
+    width: 25vh;
+    height: 25vh;
+    float: right;
+    margin: 2vh 5% 2vh 0;
+  }
+  .textBlock{
+    clear: none;
+    width: 29.33%;
+    float: left;
+    margin: 2.5vh 1% 2.5vh 0;
+  }
+  .first{
+    clear: both;
+    margin-left: 5%;
+  }
+  .last{
+    margin-right: 5%;
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
