@@ -66,6 +66,8 @@ nav ul li:last-child {
 article {
   clear: both;
   margin: 2.5vh 5%;
+  height: 25.5vh;
+  overflow: hidden;
 }
 
 article h1 {
@@ -74,6 +76,7 @@ article h1 {
 }
 
 article p {
+  padding-top: 0.5vh;
   font-size: 1em;
   background-color: pink;
 }
@@ -83,8 +86,7 @@ article img {
   height: 5vh;
   width: 5vh;
   background-color: black;
-  margin: 0 5% 90% 0;
-
+  margin: 0 5% 20.5vh 0;
 }
 
 .big-logo {
@@ -95,20 +97,42 @@ article img {
   background: cornflowerblue;
 }
 
+.block-container{
+  height: 35vh;
+  margin: 2.5vh 0%;
+  background-color: red;
+}
+
 .text-block {
-  clear: both;
+  float: left;
   background-color: cadetblue;
   width: 90%;
   height: 10vh;
-  margin: 2.5vh 5%;
+  margin: 1.25vh 5%;
+}
+
+.first{
+  margin-top: 0;
+}
+
+.last{
+  margin-bottom: 0;
+}
+
+.art-container{
+  background-color: yellow;
+}
+
+.art-img-container{
+  background-color: green;
 }
 
 @media only screen and (min-width:600px) {
-  .topBar {
+  .top-bar {
     width: 10%;
     height: 2vh;
   }
-  .topLogo {
+  .top-logo {
     width: 4vh;
     height: 4vh;
     border-radius: 50%;
@@ -125,24 +149,43 @@ article img {
     width: 51%;
     height:25vh;
   }
-  .bigLogo {
+  .big-logo {
     width: 25vh;
     height: 25vh;
     float: right;
     margin: 2vh 5% 2vh 0;
   }
-  .textBlock{
-    clear: none;
+  .block-container{
+    height: 10vh;
+    width: 90%;
+    margin: 2.5vh 5%;
+    clear: both;
+  }
+  .text-block{
     width: 29.33%;
-    float: left;
-    margin: 2.5vh 1% 2.5vh 0;
+    margin: 0 1% 0 0;
   }
   .first{
-    clear: both;
     margin-left: 5%;
+    clear: none;
+    float: left;
   }
   .last{
     margin-right: 5%;
+    float: right;
+    clear: none;
+  }
+  .art-container{
+    height: 45vh;
+    width: 45%;
+
+  }
+  .art-container article{
+    width: 90%;
+    height: 12.5vh;
+    float: left;
+    margin: 0 5% 2.5vh 5%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
