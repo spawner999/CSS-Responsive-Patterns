@@ -27,25 +27,27 @@ body {
   margin: 2.5vh 5%;
 }
 
-nav{
+nav {
   width: 100%;
 }
 
-nav ul{
+nav ul {
   width: 48%;
   height: 3vh;
   padding-left: 0;
   list-style: none;
   margin: 0 5% 2.5vh 5%;
 }
-nav ul li{
+
+nav ul li {
   float: left;
   width: 30%;
   height: 100%;
   margin-right: 5%;
   background-color: darkgreen;
 }
-nav ul li:last-child{
+
+nav ul li:last-child {
   margin-right: 0;
 }
 
@@ -56,7 +58,7 @@ header {
   margin: 2vh 5%;
 }
 
-header:first-of-type{
+header:first-of-type {
   width: 85%;
 }
 
@@ -65,17 +67,20 @@ article {
   /*CHANGE HEIGHT HERE FOR LONGER ARTICLES*/
   height: 64.5vh;
   margin: 6vh 5% 2.5vh 5%;
+  background-color: teal;
 }
+
 article img {
   width: 100%;
   height: 60%;
   background-color: pink;
 }
-article h1{
+article h1 {
   font-size: 1.2em;
   margin: 3vh 0 2vh 0;
   background-color: pink;
 }
+
 article p {
   font-size: 0.9em;
   background-color: pink;
@@ -86,7 +91,7 @@ article p {
     float: left;
     width: 30%;
   }
-  nav ul{
+  nav ul {
     float: left;
     width: 30%;
     vertical-align: middle;
@@ -98,7 +103,7 @@ article p {
     width: 87%;
   }
 
-  header:first-of-type{
+  header:first-of-type {
     clear: both;
     margin-top: 15vh;
     width: 82%;
@@ -111,16 +116,18 @@ article p {
     margin-bottom: 0vh;
   }
 
-  article:nth-child(even){
+  article:nth-child(even) {
     margin-right: 0;
   }
 
-  article:last-child{
+  article:last-child {
     margin-bottom: 2.5vh;
   }
-  article h1{
+
+  article h1 {
     font-size: 1.5em;
   }
+
   article p {
     font-size: 1em;
   }
@@ -132,7 +139,7 @@ article p {
     width: 80%;
   }
 
-  header:first-of-type{
+  header:first-of-type {
     width: 75%;
   }
 
@@ -152,7 +159,7 @@ article p {
     margin-left: 5%;
   }
 
-  article:nth-child(odd){
+  article:nth-child(odd) {
     margin-right: 0;
   }
 

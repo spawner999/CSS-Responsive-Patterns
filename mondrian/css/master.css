@@ -15,23 +15,25 @@
   box-sizing: border-box;
   margin: 0;
 }
-body{
+
+body {
   width: 100%;
   height: 100vh;
   background-color: #eee;
 }
 
-.column{
+.column {
   float: left;
   background-color: seagreen;
 }
 
-.large{
+.large {
   width: 90%;
   height: 50vh;
   margin: 2.5vh 5%;
 }
-.small{
+
+.small {
   width: 90%;
   height: 20vh;
   margin: 2.5vh 5%;
@@ -45,18 +47,20 @@ body{
   }
 }
 
-@media only screen and (min-width:1024px){
-  .large{
+@media only screen and (min-width:1024px) {
+  .large {
     width: 60%;
     height: 90vh;
     margin: 5vh 5%;
   }
-  .small{
+
+  .small {
     width: 25%;
     height: 42.5vh;
     margin: 5vh 5% 5vh 0;
   }
-  .top {
+
+  div:nth-child(2) {
     margin: 5vh 5% 0 0%;
   }
 }
