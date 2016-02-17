@@ -72,7 +72,7 @@ article {
 
 article img {
   width: 100%;
-  height: 60%;
+  height: 55%;
   background-color: pink;
 }
 article h1 {
@@ -125,7 +125,7 @@ article p {
   }
 
   article h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   article p {
@@ -164,7 +164,7 @@ article p {
   }
 
   article p {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
 }

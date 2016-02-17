@@ -21,7 +21,7 @@ body {
   background-color: #e8e8e8;
 }
 
-.topBar {
+.top-bar {
   float: left;
   background-color: darkseagreen;
   width: 15%;
@@ -29,7 +29,7 @@ body {
   margin: 4vh 0;
 }
 
-.topLogo {
+.top-logo {
   float: left;
   background-color: darkkhaki;
   width: 6vh;
@@ -38,11 +38,11 @@ body {
   margin: 2.5vh 5%;
 }
 
-nav{
+nav {
   width: 100%;
 }
 
-nav ul{
+nav ul {
   width: 90%;
   float: left;
   height: 4vh;
@@ -50,14 +50,16 @@ nav ul{
   list-style: none;
   margin: 0 5% 2.5vh 5%;
 }
-nav ul li{
+
+nav ul li {
   float: left;
   width: 24.25%;
   height: 100%;
   margin-right: 1%;
   background-color: darkgreen;
 }
-nav ul li:last-child{
+
+nav ul li:last-child {
   margin-right: 0;
 }
 
@@ -66,25 +68,34 @@ article {
   margin: 2.5vh 5%;
 }
 
-article h1{
+article h1 {
   font-size: 1.5em;
   background-color: pink;
 }
+
 article p {
   font-size: 1em;
   background-color: pink;
 }
 
-.bigLogo{
+article img {
+  float: left;
+  height: 5vh;
+  width: 5vh;
+  background-color: black;
+  margin: 0 5% 90% 0;
+
+}
+
+.big-logo {
   width: 27vh;
   height: 27vh;
   border-radius: 50%;
-  display: block;
   margin: 1vh auto 0;
   background: cornflowerblue;
 }
 
-.textBlock {
+.text-block {
   clear: both;
   background-color: cadetblue;
   width: 90%;
