@@ -40,6 +40,7 @@ body {
 
 nav {
   width: 100%;
+  overflow: auto;
 }
 
 nav ul {
@@ -168,6 +169,7 @@ article img {
   }
   .text-block{
     width: 29.33%;
+    height: 100%;
     margin: 0 1% 0 0;
   }
   .first{
@@ -183,7 +185,6 @@ article img {
   .art-container{
     height: 45vh;
     width: 45%;
-
   }
   .art-container article{
     width: 90%;
@@ -195,9 +196,52 @@ article img {
 
 @media only screen and (min-width: 1024px) {
 
+  nav ul{
+    height: 8vh;
+  }
+
+  nav{
+    margin-bottom: 4vh;
+  }
+
+  .top-logo{
+    width: 12vh;
+    height: 12vh;
+    margin: 2vh 5%;
+  }
+
+  .top-bar{
+    height: 6vh;
+  }
+
+  article{
+    height: 71vh;
+
+  }
   .big-logo{
-    max-width: 638.250px;
-    max-height: 638.250px;
+    max-width: 71vh;
+    max-height: 71vh;
+    width: 71vh;
+    height: 71vh;
+  }
+  .block-container, .art-container, .art-img-container{
+    height: 90vh;
+    width: 26.7%;
+    float: left;
+    margin: 5vh 5%;
+  }
+  .text-block, .art-container article, .art-img-container article{
+    width: 100%;
+    margin: 2.5vh 0;
+    height: 25vh;
+  }
+  .first{
+    margin-left: 0;
+  }
+  .last{
+    margin-right: 0;
+    margin-left: 0;
+    float: left;
   }
 
 }
