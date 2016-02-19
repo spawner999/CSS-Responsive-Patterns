@@ -41,26 +41,29 @@ body {
 
 @media only screen and (min-width:600px) {
   .small {
-    width: 40%;
-    height: 40vh;
-    margin: 2.5vh 5%;
+    width: 42.5%;
+    height: 42.5vh;
+    margin: 0 5% 2.5vh 5%;
+  }
+  div:nth-child(2) {
+    margin-right: 0;
   }
 }
 
 @media only screen and (min-width:1024px) {
   .large {
-    width: 60%;
+    width: 70%;
     height: 90vh;
-    margin: 5vh 5%;
+    margin: 5vh 0 5vh 5%;
   }
 
   .small {
-    width: 25%;
+    width: 17.5%;
     height: 42.5vh;
-    margin: 5vh 5% 5vh 0;
+    margin: 5vh 5% 5vh 2.5%;
   }
 
   div:nth-child(2) {
-    margin: 5vh 5% 0 0%;
+    margin-bottom: 0;
   }
 }
